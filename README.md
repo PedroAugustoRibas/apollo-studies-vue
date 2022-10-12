@@ -2,7 +2,6 @@
 
 Projeto desenvoilvido para realizar eestudos de graphql utilizando apollographql
 
-Este projeto está consumindo a api https://rickandmortyapi.com/
 ## Project setup
 ```
 npm install
