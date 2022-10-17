@@ -50,6 +50,9 @@
         },
         methods:{
             click(){
+                /**
+                 * @emit click teste 
+                 */
                this.$emit("click", this.value)
             }
         },

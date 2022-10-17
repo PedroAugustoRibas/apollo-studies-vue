@@ -42,6 +42,9 @@
              * Método de click do botão, realiza o emit do evento click
              */
             clickButton(){
+                /**
+                 * @emit click teste 
+                 */
                 this.$emit('click', this.value)
             }
         }
