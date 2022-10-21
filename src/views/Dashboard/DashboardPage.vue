@@ -9,16 +9,10 @@
 
 <script>
 
-    import TableEpisodes from '@/components/organisms/TableEpisodes.vue'
-    import "intro.js/minified/introjs.min.css";
+    import TableEpisodes from '@/components/organisms/TableEpisodes.vue'  
     export default {
         components:{
             TableEpisodes
-        },
-        mounted() {
-            const  introJS  = require('intro.js')
-            console.log(introJS)
-            introJS().start()
         },
         data(){
             return{
